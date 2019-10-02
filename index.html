@@ -5,6 +5,20 @@
     <meta name="description" content="A page about Mariah Carey">
     <title>The Ultimate Diva&colon; Mariah Carey</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+	<style>
+  	#resizable { width: 150px; height: 150px; padding: 0.5em; }
+  	#resizable h3 { text-align: center; margin: 0; }
+  	</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+  		$( function() {
+		$( "#sizing" ).resizable();
+  		} );
+  	</script>
+	<link href="https://fonts.googleapis.com/css?family=Grenze:800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -47,18 +61,18 @@
                     <h2>Mariah The Performer</h2>
                     <p>Some of my friends compare Mariah Carey to newer and younger artists, like Beyonc&eacute;. I agree that Mariah Carey's concerts do not rival that of Lady Gaga or Britney Spears as far as theatrics are concerned. Mariah doesn't dance much and unlike the artists stated above, she only uses a small number of dancers during her perfomances. However, her vocals are so strong that she doesn't need all of the extras to be great. Even after about <b>30</b> years in the business, she's still amazing!
                     </p>
-                    <p><img src="assets/images/cautionconcertwithsis.jpg" width="300" height="300" alt="Picture with sister at Caution World Tour Concert" class="center">
-                        <p>I attended the <a href="#" title="March 1, 2019, at the Smart Financial Centre at Sugar Land in Sugar Land, TX">Caution World Tour</a> earlier this year and had a wonderful time. My sister came from Phoenix and went with me. She's not a forever fan like I am, but she loved the concert, too.
+                    <img src="assets/images/cautionconcertwithsis.jpg" width="300" height="300" alt="Picture with sister at Caution World Tour Concert" class="center">
+                        <p>I attended the Caution World Tour earlier this year and had a wonderful time. My sister came from Phoenix and went with me. She's not a forever fan like I am, but she loved the concert, too.
                     </p>
                 </article>
             </section>
             <section id="business">
                 <article>
                     <h2>Mariah the Businesswoman</h2>
-                    <p><img src="assets/images/mcperfume.jpg" width="350" height="350" alt="Collection of Mariah Perfumes">I know from watching interviews with and about Mariah Carey, that she is very hands on when it comes to creating her music. She writes a lot of her lyrics and she's very particular about her sound. But that's not all she does.
+                    <div id="sizing" class="ui-widget-content"><a href="assets/styles/jquery-ui.min.css"><img src="assets/images/mcperfume.jpg" width="350" height="350" alt="Collection of Mariah Perfumes" class="ui-widget-header"></a></div>
+					<p>I know from watching interviews with and about Mariah Carey, that she is very hands on when it comes to creating her music. She writes a lot of her lyrics and she's very particular about her sound. But that's not all she does.
                     </p>
-                    <p>
-                        Did you know that Mariah Carey has a fragrance line? I started collecting her perfumes a few years ago. The fragrances have the cutest bottles and are quite affordable. I collected the purple bottle, M by Mariah Carey, even though I didn't care for it's smell. 
+                        <p>Did you know that Mariah Carey has a fragrance line? I started collecting her perfumes a few years ago. The fragrances have the cutest bottles and are quite affordable. I collected the purple bottle, M by Mariah Carey, even though I didn't care for it's smell. 
                         </p>
                     <ol id="ol"><b>My Top Three  Perfume Scents&#58;</b>
                         <li>M by Mariah Carey Luscious Pink</li>
